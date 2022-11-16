@@ -7,14 +7,13 @@
   justify-content: space-between;
   padding-left: 130px;
   margin-top: 50px;
-  color: white;
-  background-color: black;
+  /* color: white;  */
 }
 .left_nav > h1 > i {
   color: coral;
 }
 .left_nav > h1 {
-  color: whitesmoke;
+  /* color: whitesmoke; */
 }
 .right_nav {
   display: flex;
@@ -33,55 +32,82 @@
   margin: 10px;
   /* padding-top: 100px; */
 }
-.slogan {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-}
-.slogan > h1 {
-  font-size: 50px;
-  display: flex;
-  justify-content: ;
-}
-.slogan > p {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  position: absolute;
-  top: 350px;
-}
-.btn {
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-}
-.btn > button {
+.slogan { 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  text-align: center;
+  color: white;
+  height: 800px;
+
+}.btn  {
   background-color: coral;
   border-radius: 15px;
   padding: 5px;
 }
 .requirment {
   display: flex;
-  justify-content: center;
-  /* margin: 90px 400px; */
+  /* justify-content: center; */
+  margin: 90px 400px;
   border: 2px solid black;
   border-radius: 30px;
+  height: 100px;
 }
 .naviator {
   display: flex;
+  /* padding: 30px; */
+  /* justify-content: center; */
+  /* align-content: center; */
+  /* position: absolute; */
+  /* left: 460px; */
 }
 
 .naviator > h6 {
-  padding: 0px 60px;
+  padding: 0px 70px;
+  font-size: 15px;
 }
 .input_naviator {
   display: flex;
-  justify-content: center;
-  align-content: center;
+  margin-top: 40px;
+  margin-right: 59px;
+
 }
 .input_naviator > input {
-  display: flex;
-  padding: 10px;
-  height: 20px;
-  border-radius:20px ;
+  justify-content: center;
+  /* margin: -70px; */
+  /* border-radius: 25px; */
+  /* border: 2px solid lavenderblush; */
+  /* margin-top: 20px; */
+}
+.requirment > button {
+  background-color: coral;
+  border-radius: 20px;
+  padding: 7px;
+  margin: 30px;
+}
+.destinations > h1 {
+  font-size: 50px;
+}
+.destinations {
+  margin: 160px;
+
+}
+.card {
+  margin: 90px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-direction:row; */
+}
+.card_container {
+    display: flex;
+}
+.offers {
+ /* display: flex; */
+ /* justify-content: center; */
+}
+.offers_h1 {
+font-size: 50px;
+display: flex;
+justify-content: center;
 }
